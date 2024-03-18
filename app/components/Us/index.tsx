@@ -2,7 +2,6 @@ import Image from 'next/image'
 import Box from '@mui/material/Box'
 import Typography from '@mui/material/Typography'
 import { Section } from '@/app/components/Section'
-import { CustomButton } from '@/app/components/buttons/Button'
 import Link from 'next/link'
 
 export const Us = () => {

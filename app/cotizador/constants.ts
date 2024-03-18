@@ -8,7 +8,7 @@ import {
   CommandType,
   DefaultValues,
 } from './types'
-import { object, string, ObjectSchema, boolean } from 'yup'
+import { object, string, ObjectSchema } from 'yup'
 
 export const PRODUCT_CATEGORIES = [
   DefaultValues._DEFAULT_CATEGORY,

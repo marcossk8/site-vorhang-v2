@@ -1,5 +1,4 @@
 import { AboutUs } from '@/app/components/AboutUs'
-import { NewsLetter } from '@/app/components/NewsLetter'
 import { Services } from '@/app/components/Services'
 import Box from '@mui/material/Box'
 import { Us } from './components/Us'

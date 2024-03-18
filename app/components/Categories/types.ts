@@ -5,4 +5,8 @@ export interface Category {
   // eslint-disable-next-line no-unused-vars
   onClick: (router: AppRouterInstance) => void
   id: string
+  img: {
+    src: string,
+    alt: string,
+  },
 }
