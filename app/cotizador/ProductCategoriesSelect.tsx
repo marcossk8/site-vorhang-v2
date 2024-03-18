@@ -15,7 +15,7 @@ import MenuItem from '@mui/material/MenuItem'
 import FormHelperText from '@mui/material/FormHelperText/FormHelperText'
 
 const ProductCategoriesSelect: FC<{
-  productCategory: ProductCategory
+  productCategory: ProductCategory 
   resetProductTypes: (newValue?: ProductCategory) => void
   onChange: (e: SelectChangeEvent<ProductCategory>) => void
   error?: string

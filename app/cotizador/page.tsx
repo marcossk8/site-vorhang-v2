@@ -472,10 +472,10 @@ const StepOne: FC<{
   ) => void
 }> = ({ values, errors, onChange, setProductCategory, resetProductTypes }) => {
   const productCategory =
-    values[FIELD_PRODUCT_CATEGORY] ?? DefaultValues._DEFAULT_CATEGORY
+    values?.[FIELD_PRODUCT_CATEGORY] ?? DefaultValues._DEFAULT_CATEGORY
   const productType =
-    values[FIELD_PRODUCT_TYPE] ?? DefaultValues._DEFAULT_PRODUCT_TYPE
-  const rollerBlindType = values[FIELD_ROLLER_BLIND_TYPE]
+    values?.[FIELD_PRODUCT_TYPE] ?? DefaultValues._DEFAULT_PRODUCT_TYPE
+  const rollerBlindType = values?.[FIELD_ROLLER_BLIND_TYPE]
 
   return (
     <Fragment>

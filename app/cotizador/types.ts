@@ -40,6 +40,7 @@ export type ProductCategory =
   | DefaultValues._DEFAULT_CATEGORY
   | ProductCategories._INDOOR
   | ProductCategories._OUTDOOR
+  | string
 
 export type ProductType =
   | DefaultValues._DEFAULT_PRODUCT_TYPE
