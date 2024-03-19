@@ -120,7 +120,7 @@ export const Footer = (): ReactNode => {
             }}
             href="/preguntas-frecuentes"
           >
-            Cotizador
+            Preguntas frecuentes
           </Link>
         </ListItem>
         <ListItem>
